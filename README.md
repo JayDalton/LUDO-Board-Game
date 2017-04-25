@@ -1,5 +1,3 @@
-# LUDO-Board-Game
+# 3D LUDO Board Game
 
-Try new C++ features
-Try Vulkan API
-Try 3D LUDO borad game 
+(1) Try new C++ features, (2) Try Vulkan API, (3) Try 3D LUDO borad game 
