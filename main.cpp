@@ -8,7 +8,10 @@
 
 #include <iostream>
 
-int main() {
+#include "game.cpp"
+
+int setup() {
+
 	glfwInit();
 
 	glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
@@ -32,4 +35,19 @@ int main() {
 	glfwTerminate();
 
 	return 0;
+}
+
+int main() {
+
+	BoardGame app;
+
+	try {
+		app.run();
+	}
+	catch (const std::runtime_error& e) {
+		std::cerr << e.what() << std::endl;
+		return EXIT_FAILURE;
+	}
+
+	return EXIT_SUCCESS;
 }
