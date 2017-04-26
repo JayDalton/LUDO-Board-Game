@@ -29,7 +29,7 @@
     <None Include="vert.spv">
       <Filter>shaders</Filter>
     </None>
-    <None Include="fraq.spv">
+    <None Include="frag.spv">
       <Filter>shaders</Filter>
     </None>
   </ItemGroup>
