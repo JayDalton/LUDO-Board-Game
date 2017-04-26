@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{d619bfa0-ab4c-462b-9859-ed6d9b7b2c87}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -21,5 +24,13 @@
     <ClCompile Include="game.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vert.spv">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="fraq.spv">
+      <Filter>shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>
